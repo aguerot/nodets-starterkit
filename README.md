@@ -1,19 +1,13 @@
-# nodets-starterkit
+# Fizzbuzz
 
-Starterkit for 'consoleapp like' NodeJS project with TS and tests
+Starterkit for 'Fizzbuzz' NodeJS project with TS and tests
 
-## Install
+## Specs
 
-`npm i`
+- For any integer multiple of 3 return 'Fizz'
+- For any integer multiple of 5 return 'Buzz'
+- For any integer multiple of 3 and 5 return 'FizzBuzz'
 
-## Execute
+- Any other integer returns it as a string
 
-`npm run start`
-
-## Test
-
-`npm run test`
-
-## Debug with VSCode
-
-Execute default debug config to launch debugger
+Implement a method or function that takes an int and returns the correct string.
