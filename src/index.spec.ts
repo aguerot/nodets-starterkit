@@ -1,7 +1,7 @@
 import { expect } from "chai";
 
 describe('Placeholder test', () => {
-    it('should succeed', () => {
-        expect(true).to.be.true;
+    it('should fail', () => {
+        expect(false).to.be.true;
     });
 });
