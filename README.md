@@ -11,3 +11,5 @@ Starterkit for 'Fizzbuzz' NodeJS project with TS and tests
 - Any other integer returns it as a string
 
 Implement a method or function that takes an int and returns the correct string.
+
+Even if these are fairly simple requirements, special attention should be given to readability, architectural principles and good practices
