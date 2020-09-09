@@ -14,7 +14,7 @@ Starterkit for 'Fizzbuzz' NodeJS project with TS and tests
 
 Implement a method or function that takes an int and returns the correct string.
 
-Even if these are fairly simple requirements, special attention should be given to readability, architectural principles and good practices
+Even if these are fairly simple requirements, special attention should be given to readability, architectural principles and good practices.
 
 ## Going further (optional)
 
