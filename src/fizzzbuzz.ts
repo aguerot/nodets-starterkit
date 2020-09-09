@@ -3,6 +3,7 @@ import { fizzRule } from './rules/fizz.rule';
 import { buzzRule } from './rules/buzz.rule';
 import { stringRule } from './rules/string.rule';
 import { Rule } from './rules/rule';
+import { zeroRule } from './rules/zero.rule';
 
 export type FizzBuzz = {
     say: (input: number) => string;
@@ -16,7 +17,10 @@ export const fizzbuzz: FizzBuzz = {
 export const fizzbuzzRunner = {
 
     run: (input: number): string => {
+
+        // rule order is important as find bellow takes first match
         const rules: Rule[] = [
+            zeroRule,
             fizzbuzzRule,
             fizzRule,
             buzzRule,
