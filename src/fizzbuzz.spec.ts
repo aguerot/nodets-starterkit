@@ -1,4 +1,4 @@
-import { expect } from "chai";
+import { expect } from 'chai';
 import { FizzBuzz, fizzbuzz } from './fizzzbuzz';
 
 describe('FizzBuzz test', () => {

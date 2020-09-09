@@ -6,7 +6,7 @@ Starterkit for 'Fizzbuzz' NodeJS project with TS and tests
 
 - For any integer multiple of 3 return 'Fizz'
 - For any integer multiple of 5 return 'Buzz'
-- For any integer multiple of 3 and 5 return 'FizzBuzz'
+- For any integer multiple of 3 and 5 return 'Fizzbuzz'
 
 - Any other integer returns it as a string
 
