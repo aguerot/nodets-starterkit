@@ -1,6 +1,5 @@
 import { expect } from 'chai';
-import { Rule } from './rule';
-import { fizzRule } from './fizz.rule';
+import { Rule, fizzRule } from '.';
 
 describe('Fizz rule test', () => {
     let rule: Rule;

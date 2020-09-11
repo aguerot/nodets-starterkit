@@ -1,6 +1,5 @@
 import { expect } from 'chai';
-import { Rule } from './rule';
-import { stringRule } from './string.rule';
+import { Rule, stringRule } from '.';
 
 describe('String rule test', () => {
     let rule: Rule;
