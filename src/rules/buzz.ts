@@ -1,6 +1,6 @@
-import { Rule } from './rule';
+import { Rule } from '.';
 
 export const buzzRule: Rule = {
     applies: input => input % 5 === 0, 
-    process: input => 'Buzz',
+    process: _ => 'Buzz',
 };

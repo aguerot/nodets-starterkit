@@ -1,4 +1,4 @@
-import { Rule } from './rule';
+import { Rule } from '.';
 
 /**
  * Catch all rule
@@ -6,6 +6,6 @@ import { Rule } from './rule';
  * @param num 
  */
 export const stringRule: Rule = {
-    applies: input => true,
+    applies: _ => true,
     process: input => `${input}`
 };

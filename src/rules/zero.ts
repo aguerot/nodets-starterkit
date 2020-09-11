@@ -1,4 +1,4 @@
-import { Rule } from './rule';
+import { Rule } from '.';
 
 export const zeroRule: Rule = {
     applies: input => input === 0,
