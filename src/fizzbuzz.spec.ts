@@ -16,7 +16,6 @@ describe('FizzBuzz test', () => {
         expect(fb.say(undefined)).to.equal('undefined');
     });
 
-    https://open.spotify.com/track/0aDU64XfEFCGSb96TVciFt?si=FfqkSRyrReSl0gALt0tdTA
     it('Given 0 should say "0"', () => {
         expect(fb.say(0)).to.equal('0');
     });

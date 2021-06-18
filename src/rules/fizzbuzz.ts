@@ -1,6 +1,6 @@
-import { Rule } from '.';
+import { buzzRule, fizzRule, Rule } from '.';
 
 export const fizzbuzzRule: Rule = {
-    applies: input => input % 3 === 0 && input % 5 === 0,
+    applies: input => fizzRule.applies(input) && buzzRule.applies(input),
     process: _ => 'Fizzbuzz'
 };
